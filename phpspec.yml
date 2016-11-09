@@ -1,0 +1,9 @@
+suites:
+    main:
+        namespace: Packages\Dev\App
+        psr4_prefix: Packages\Dev\App
+        src_path: app
+    app:
+        namespace: App
+        psr4_prefix: App
+        src_path: ../../app
