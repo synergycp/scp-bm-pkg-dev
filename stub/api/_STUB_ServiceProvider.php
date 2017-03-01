@@ -2,7 +2,7 @@
 
 namespace _NAMESPACE_\_STUB_;
 
-use App\Log\LogTypeService;
+use App\Support\ClassMap;
 use App\Support\ServiceProvider;
 
 /**
@@ -20,10 +20,12 @@ extends ServiceProvider
     ];
 
     /**
-     * @param LogTypeService $logType
+     * @param ClassMap $classMap
      */
-    public function boot(LogTypeService $logType)
+    public function boot(ClassMap $classMap)
     {
-        $logType->map('_ROUTE_', _STUB_::class);
+        $classMap
+            ->map('_ROUTE_', _STUB_::class)
+        ;
     }
 }

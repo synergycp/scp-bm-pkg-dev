@@ -6,7 +6,7 @@ use App\Http\RouteServiceProvider;
 use Illuminate\Routing\Router;
 
 /**
- * Routes regarding Switches.
+ * Routes regarding _PLURAL_.
  */
 class _STUB_RoutesProvider
 extends RouteServiceProvider
