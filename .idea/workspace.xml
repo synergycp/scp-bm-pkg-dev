@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4387cb3-1e51-4a2e-9918-5a0a9b3611b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/SynergyCP Package Developer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Scaffold/Api/ApiCommand.php" afterPath="$PROJECT_DIR$/app/Scaffold/Api/ApiCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stub/api/_STUB_RoutesProvider.php" afterPath="$PROJECT_DIR$/stub/api/_STUB_RoutesProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stub/api/_STUB_ServiceProvider.php" afterPath="$PROJECT_DIR$/stub/api/_STUB_ServiceProvider.php" />
-    </list>
+    <list default="true" id="b4387cb3-1e51-4a2e-9918-5a0a9b3611b5" name="Default" comment="" />
     <ignored path="dev.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -267,12 +256,12 @@
       <workItem from="1479351192638" duration="617000" />
       <workItem from="1482025453836" duration="36000" />
       <workItem from="1482111677174" duration="40000" />
-      <workItem from="1488327194944" duration="1490000" />
+      <workItem from="1488327194944" duration="1580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7162000" />
+    <option name="totallyTimeSpent" value="7252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1265" y="467" width="1855" height="1056" extended-state="6" />
