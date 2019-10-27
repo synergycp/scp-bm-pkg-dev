@@ -9,14 +9,9 @@ use App\Support\EventServiceProvider;
  * Setup _PLURAL_ Event Listeners.
  */
 class _STUB_EventServiceProvider
-extends EventServiceProvider
-{
-    protected $listen = [
-        Events\_STUB_Created::class => [
-            EventLogger::class,
-        ],
-        Events\_STUB_Deleted::class => [
-            EventLogger::class,
-        ],
-    ];
+  extends EventServiceProvider {
+  protected $listen = [
+    Events\_STUB_Created::class => [EventLogger::class],
+    Events\_STUB_Deleted::class => [EventLogger::class],
+  ];
 }

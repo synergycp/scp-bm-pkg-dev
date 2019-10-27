@@ -9,13 +9,8 @@ use Illuminate\Routing\Router;
  * Routes regarding _PLURAL_.
  */
 class _STUB_RoutesProvider
-extends RouteServiceProvider
-{
-    protected function api(Router $router)
-    {
-        $router->resource(
-            '_ROUTE_',
-            _STUB_Controller::class
-        );
-    }
+  extends RouteServiceProvider {
+  protected function api(Router $router) {
+    $router->resource('_ROUTE_', _STUB_Controller::class);
+  }
 }
