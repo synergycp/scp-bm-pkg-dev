@@ -2,6 +2,7 @@
 
 namespace _NAMESPACE_\_STUB_;
 
+use App\Auth\Permission\ICanHavePermissions;
 use App\Auth\Permission\Rule\AllowIfUserHasPermissions;
 use App\Auth\Permission\THasPermissionChecks;
 use App\Database\Models;
@@ -10,7 +11,8 @@ use App\Database\Models;
  * Database storage and retrieval of _STUB_s.
  */
 class _STUB_
-  extends Models\Model {
+  extends Models\Model
+  implements ICanHavePermissions {
   // Traits
   use _STUB_Search;
   use THasPermissionChecks;

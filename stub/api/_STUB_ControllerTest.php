@@ -65,21 +65,21 @@ class _STUB_ControllerTest extends TestCase {
 
   private function cannotRead() {
     $this->get($this->trimLastPath($this->item->url()));
-    $this->assertResponseStatus(401);
+    $this->assertResponseStatusOneOf([401, 403]);
 
     $this->get($this->item->url());
-    $this->assertResponseStatus(401);
+    $this->assertResponseStatusOneOf([401, 403]);
   }
 
   private function cannotUpdate() {
     $this->post($this->trimLastPath($this->item->url()), $this->createData());
-    $this->assertResponseStatus(401);
+    $this->assertResponseStatusOneOf([401, 403]);
 
     $this->patch($this->item->url(), $this->editData());
-    $this->assertResponseStatus(401);
+    $this->assertResponseStatusOneOf([401, 403]);
 
     $this->delete($this->item->url());
-    $this->assertResponseStatus(401);
+    $this->assertResponseStatusOneOf([401, 403]);
   }
 
   private function canUpdate() {
