@@ -30,7 +30,7 @@ class _STUB_
 
   protected function permissionRulesForEdit(): array {
     return [
-      new AllowIfUserHasPermissions([static::PERMISSION_WRITE]),
+      AllowIfUserHasPermissions::create([static::PERMISSION_WRITE]),
     ];
   }
 }
